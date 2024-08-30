@@ -1,327 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <section>
-        <a href="#">
-            <img src="./asset/altschoolimg.png" alt="altschoolimg">
-        </a>
-        <P> Already an AltSchooler? <a href="./Signin/Signin.html">Sign In!</a></P>
-        <section>
-            <h2>Signup</h2>
-            <h4>Take the next steps to apply at AltSchool Africa</h4>
-            <form action="">
-                <div>
-                    <Label>First Name</Label><br>
-                    <input type="text" placeholder="Enter first name">
-                </div>
-                <div>
-                    <Label>Last Name</Label><br>
-                    <input type="text" placeholder="Enter last name">
-                </div>
-                <div>
-                    <Label>Gender</Label><br>
-                    <select name="Gender" id="Gender">
-                        <option value="Select gender">Select gender</option>
-                        <option value="Male">Male</option>
-                        <option value="Female">Female</option>
-                    </select>
-                </div>
-                <div>
-                    <Label>Date of Birth</Label><br>
-                    <input type="date" placeholder="dd -- yyyy">
-                </div>
-                <div>
-                    <Label>Email</Label><br>
-                    <input type="email" placeholder="Enter email address">
-                </div>
-                <div>
-                    <Label>Phone number</Label><br>
-                    <input type="number" placeholder="081543870000">
-                </div>
-                <div>
-                    <Label>Country</Label><br>
-                    <select name="Country" id="Country">
-                        <option value="Select">Select your country</option>
-                        <option value="United States">United States</option>
-                            <option value="Afghanistan">Afghanistan</option>
-                            <option value="Albania">Albania</option>
-                            <option value="Algeria">Algeria</option>
-                            <option value="American Samoa">American Samoa</option>
-                            <option value="Andorra">Andorra</option>
-                            <option value="Angola">Angola</option>
-                            <option value="Anguilla">Anguilla</option>
-                            <option value="Antartica">Antarctica</option>
-                            <option value="Antigua and Barbuda">Antigua and Barbuda</option>
-                            <option value="Argentina">Argentina</option>
-                            <option value="Armenia">Armenia</option>
-                            <option value="Aruba">Aruba</option>
-                            <option value="Australia">Australia</option>
-                            <option value="Austria">Austria</option>
-                            <option value="Azerbaijan">Azerbaijan</option>
-                            <option value="Bahamas">Bahamas</option>
-                            <option value="Bahrain">Bahrain</option>
-                            <option value="Bangladesh">Bangladesh</option>
-                            <option value="Barbados">Barbados</option>
-                            <option value="Belarus">Belarus</option>
-                            <option value="Belgium">Belgium</option>
-                            <option value="Belize">Belize</option>
-                            <option value="Benin">Benin</option>
-                            <option value="Bermuda">Bermuda</option>
-                            <option value="Bhutan">Bhutan</option>
-                            <option value="Bolivia">Bolivia</option>
-                            <option value="Bosnia and Herzegowina">Bosnia and Herzegowina</option>
-                            <option value="Botswana">Botswana</option>
-                            <option value="Bouvet Island">Bouvet Island</option>
-                            <option value="Brazil">Brazil</option>
-                            <option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
-                            <option value="Brunei Darussalam">Brunei Darussalam</option>
-                            <option value="Bulgaria">Bulgaria</option>
-                            <option value="Burkina Faso">Burkina Faso</option>
-                            <option value="Burundi">Burundi</option>
-                            <option value="Cambodia">Cambodia</option>
-                            <option value="Cameroon">Cameroon</option>
-                            <option value="Canada">Canada</option>
-                            <option value="Cape Verde">Cape Verde</option>
-                            <option value="Cayman Islands">Cayman Islands</option>
-                            <option value="Central African Republic">Central African Republic</option>
-                            <option value="Chad">Chad</option>
-                            <option value="Chile">Chile</option>
-                            <option value="China">China</option>
-                            <option value="Christmas Island">Christmas Island</option>
-                            <option value="Cocos Islands">Cocos (Keeling) Islands</option>
-                            <option value="Colombia">Colombia</option>
-                            <option value="Comoros">Comoros</option>
-                            <option value="Congo">Congo</option>
-                            <option value="Congo">Congo, the Democratic Republic of the</option>
-                            <option value="Cook Islands">Cook Islands</option>
-                            <option value="Costa Rica">Costa Rica</option>
-                            <option value="Cota D'Ivoire">Cote d'Ivoire</option>
-                            <option value="Croatia">Croatia (Hrvatska)</option>
-                            <option value="Cuba">Cuba</option>
-                            <option value="Cyprus">Cyprus</option>
-                            <option value="Czech Republic">Czech Republic</option>
-                            <option value="Denmark">Denmark</option>
-                            <option value="Djibouti">Djibouti</option>
-                            <option value="Dominica">Dominica</option>
-                            <option value="Dominican Republic">Dominican Republic</option>
-                            <option value="East Timor">East Timor</option>
-                            <option value="Ecuador">Ecuador</option>
-                            <option value="Egypt">Egypt</option>
-                            <option value="El Salvador">El Salvador</option>
-                            <option value="Equatorial Guinea">Equatorial Guinea</option>
-                            <option value="Eritrea">Eritrea</option>
-                            <option value="Estonia">Estonia</option>
-                            <option value="Ethiopia">Ethiopia</option>
-                            <option value="Falkland Islands">Falkland Islands (Malvinas)</option>
-                            <option value="Faroe Islands">Faroe Islands</option>
-                            <option value="Fiji">Fiji</option>
-                            <option value="Finland">Finland</option>
-                            <option value="France">France</option>
-                            <option value="France Metropolitan">France, Metropolitan</option>
-                            <option value="French Guiana">French Guiana</option>
-                            <option value="French Polynesia">French Polynesia</option>
-                            <option value="French Southern Territories">French Southern Territories</option>
-                            <option value="Gabon">Gabon</option>
-                            <option value="Gambia">Gambia</option>
-                            <option value="Georgia">Georgia</option>
-                            <option value="Germany">Germany</option>
-                            <option value="Ghana">Ghana</option>
-                            <option value="Gibraltar">Gibraltar</option>
-                            <option value="Greece">Greece</option>
-                            <option value="Greenland">Greenland</option>
-                            <option value="Grenada">Grenada</option>
-                            <option value="Guadeloupe">Guadeloupe</option>
-                            <option value="Guam">Guam</option>
-                            <option value="Guatemala">Guatemala</option>
-                            <option value="Guinea">Guinea</option>
-                            <option value="Guinea-Bissau">Guinea-Bissau</option>
-                            <option value="Guyana">Guyana</option>
-                            <option value="Haiti">Haiti</option>
-                            <option value="Heard and McDonald Islands">Heard and Mc Donald Islands</option>
-                            <option value="Holy See">Holy See (Vatican City State)</option>
-                            <option value="Honduras">Honduras</option>
-                            <option value="Hong Kong">Hong Kong</option>
-                            <option value="Hungary">Hungary</option>
-                            <option value="Iceland">Iceland</option>
-                            <option value="India">India</option>
-                            <option value="Indonesia">Indonesia</option>
-                            <option value="Iran">Iran (Islamic Republic of)</option>
-                            <option value="Iraq">Iraq</option>
-                            <option value="Ireland">Ireland</option>
-                            <option value="Israel">Israel</option>
-                            <option value="Italy">Italy</option>
-                            <option value="Jamaica">Jamaica</option>
-                            <option value="Japan">Japan</option>
-                            <option value="Jordan">Jordan</option>
-                            <option value="Kazakhstan">Kazakhstan</option>
-                            <option value="Kenya">Kenya</option>
-                            <option value="Kiribati">Kiribati</option>
-                            <option value="Democratic People's Republic of Korea">Korea, Democratic People's Republic of</option>
-                            <option value="Korea">Korea, Republic of</option>
-                            <option value="Kuwait">Kuwait</option>
-                            <option value="Kyrgyzstan">Kyrgyzstan</option>
-                            <option value="Lao">Lao People's Democratic Republic</option>
-                            <option value="Latvia">Latvia</option>
-                            <option value="Lebanon">Lebanon</option>
-                            <option value="Lesotho">Lesotho</option>
-                            <option value="Liberia">Liberia</option>
-                            <option value="Libyan Arab Jamahiriya">Libyan Arab Jamahiriya</option>
-                            <option value="Liechtenstein">Liechtenstein</option>
-                            <option value="Lithuania">Lithuania</option>
-                            <option value="Luxembourg">Luxembourg</option>
-                            <option value="Macau">Macau</option>
-                            <option value="Macedonia">Macedonia, The Former Yugoslav Republic of</option>
-                            <option value="Madagascar">Madagascar</option>
-                            <option value="Malawi">Malawi</option>
-                            <option value="Malaysia">Malaysia</option>
-                            <option value="Maldives">Maldives</option>
-                            <option value="Mali">Mali</option>
-                            <option value="Malta">Malta</option>
-                            <option value="Marshall Islands">Marshall Islands</option>
-                            <option value="Martinique">Martinique</option>
-                            <option value="Mauritania">Mauritania</option>
-                            <option value="Mauritius">Mauritius</option>
-                            <option value="Mayotte">Mayotte</option>
-                            <option value="Mexico">Mexico</option>
-                            <option value="Micronesia">Micronesia, Federated States of</option>
-                            <option value="Moldova">Moldova, Republic of</option>
-                            <option value="Monaco">Monaco</option>
-                            <option value="Mongolia">Mongolia</option>
-                            <option value="Montserrat">Montserrat</option>
-                            <option value="Morocco">Morocco</option>
-                            <option value="Mozambique">Mozambique</option>
-                            <option value="Myanmar">Myanmar</option>
-                            <option value="Namibia">Namibia</option>
-                            <option value="Nauru">Nauru</option>
-                            <option value="Nepal">Nepal</option>
-                            <option value="Netherlands">Netherlands</option>
-                            <option value="Netherlands Antilles">Netherlands Antilles</option>
-                            <option value="New Caledonia">New Caledonia</option>
-                            <option value="New Zealand">New Zealand</option>
-                            <option value="Nicaragua">Nicaragua</option>
-                            <option value="Niger">Niger</option>
-                            <option value="Nigeria">Nigeria</option>
-                            <option value="Niue">Niue</option>
-                            <option value="Norfolk Island">Norfolk Island</option>
-                            <option value="Northern Mariana Islands">Northern Mariana Islands</option>
-                            <option value="Norway">Norway</option>
-                            <option value="Oman">Oman</option>
-                            <option value="Pakistan">Pakistan</option>
-                            <option value="Palau">Palau</option>
-                            <option value="Panama">Panama</option>
-                            <option value="Papua New Guinea">Papua New Guinea</option>
-                            <option value="Paraguay">Paraguay</option>
-                            <option value="Peru">Peru</option>
-                            <option value="Philippines">Philippines</option>
-                            <option value="Pitcairn">Pitcairn</option>
-                            <option value="Poland">Poland</option>
-                            <option value="Portugal">Portugal</option>
-                            <option value="Puerto Rico">Puerto Rico</option>
-                            <option value="Qatar">Qatar</option>
-                            <option value="Reunion">Reunion</option>
-                            <option value="Romania">Romania</option>
-                            <option value="Russia">Russian Federation</option>
-                            <option value="Rwanda">Rwanda</option>
-                            <option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option> 
-                            <option value="Saint Lucia">Saint LUCIA</option>
-                            <option value="Saint Vincent">Saint Vincent and the Grenadines</option>
-                            <option value="Samoa">Samoa</option>
-                            <option value="San Marino">San Marino</option>
-                            <option value="Sao Tome and Principe">Sao Tome and Principe</option> 
-                            <option value="Saudi Arabia">Saudi Arabia</option>
-                            <option value="Senegal">Senegal</option>
-                            <option value="Seychelles">Seychelles</option>
-                            <option value="Sierra">Sierra Leone</option>
-                            <option value="Singapore">Singapore</option>
-                            <option value="Slovakia">Slovakia (Slovak Republic)</option>
-                            <option value="Slovenia">Slovenia</option>
-                            <option value="Solomon Islands">Solomon Islands</option>
-                            <option value="Somalia">Somalia</option>
-                            <option value="South Africa">South Africa</option>
-                            <option value="South Georgia">South Georgia and the South Sandwich Islands</option>
-                            <option value="Span">Spain</option>
-                            <option value="Sri Lanka">Sri Lanka</option>
-                            <option value="St. Helena">St. Helena</option>
-                            <option value="St. Pierre and Miguelon">St. Pierre and Miquelon</option>
-                            <option value="Sudan">Sudan</option>
-                            <option value="Suriname">Suriname</option>
-                            <option value="Svalbard">Svalbard and Jan Mayen Islands</option>
-                            <option value="Swaziland">Swaziland</option>
-                            <option value="Sweden">Sweden</option>
-                            <option value="Switzerland">Switzerland</option>
-                            <option value="Syria">Syrian Arab Republic</option>
-                            <option value="Taiwan">Taiwan, Province of China</option>
-                            <option value="Tajikistan">Tajikistan</option>
-                            <option value="Tanzania">Tanzania, United Republic of</option>
-                            <option value="Thailand">Thailand</option>
-                            <option value="Togo">Togo</option>
-                            <option value="Tokelau">Tokelau</option>
-                            <option value="Tonga">Tonga</option>
-                            <option value="Trinidad and Tobago">Trinidad and Tobago</option>
-                            <option value="Tunisia">Tunisia</option>
-                            <option value="Turkey">Turkey</option>
-                            <option value="Turkmenistan">Turkmenistan</option>
-                            <option value="Turks and Caicos">Turks and Caicos Islands</option>
-                            <option value="Tuvalu">Tuvalu</option>
-                            <option value="Uganda">Uganda</option>
-                            <option value="Ukraine">Ukraine</option>
-                            <option value="United Arab Emirates">United Arab Emirates</option>
-                            <option value="United Kingdom">United Kingdom</option>
-                            <option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
-                            <option value="Uruguay">Uruguay</option>
-                            <option value="Uzbekistan">Uzbekistan</option>
-                            <option value="Vanuatu">Vanuatu</option>
-                            <option value="Venezuela">Venezuela</option>
-                            <option value="Vietnam">Viet Nam</option>
-                            <option value="Virgin Islands (British)">Virgin Islands (British)</option>
-                            <option value="Virgin Islands (U.S)">Virgin Islands (U.S.)</option>
-                            <option value="Wallis and Futana Islands">Wallis and Futuna Islands</option>
-                            <option value="Western Sahara">Western Sahara</option>
-                            <option value="Yemen">Yemen</option>
-                            <option value="Serbia">Serbia</option>
-                            <option value="Zambia">Zambia</option>
-                            <option value="Zimbabwe">Zimbabwe</option>
-                    </select>
-                </div>
-                <div>
-                    <Label>State/City of Residence</Label><br>
-                    <input type="text" placeholder="Enter your state of residence">
-                </div>
-                <div>
-                    <Label>How did you hear about us?</Label><br>
-                    <select name="" id="">
-                        <option value="Select Channel">Select Channel</option>
-                        <option value="Select Channel">Twitter</option>
-                        <option value="Select Channel">Facebook</option>
-                        <option value="Select Channel">Linkedin</option>
-                        <option value="Select Channel">Youtube</option>
-                        <option value="Select Channel">Friend</option>
-                        <option value="Select Channel">Whatsapp</option>
-                        <option value="Select Channel">Instagram</option>
-                        <option value="Select Channel">Billboard</option>
-                    </select>
-                </div>
-                <div>
-                    <Label>Password</Label><br>
-                    <input type="password" placeholder="Enter Password">
-                </div>
-                <div>
-                    <Label>Confirm Password</Label><br>
-                    <input type="password" placeholder="Enter Password">
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-                <h4>By clicking continue, I agree to  <a href="https://altschoolafrica.com/terms-and-conditions">Terms of Use</a> and acknowledge that I have read the  <a href="https://altschoolafrica.com/privacy-policy">Privacy Policy</a>.</h4>
-            
-                <button>Submit</button>
+  <body>
+    <header>
+      <nav>
+        <div>
+          <h1>AYODEJI</h1>
+        </div>
+        <div>
+          <a href="#">Home</a>
+          <a href="#why">purpose</a>
+          <a href="#skill">skill</a>
+          <a href="#goal">Goal</a>
+          <a href="#contact">Contact Us</a>
+        </div>
+        <div>
+          <button>
+            <a href="./Signin/Signin.html">Sign In</a>
+          </button>
+          <button>
+            <a href="./Signin/Signin.html">Sign In</a>
+          </button>
+        </div>
+      </nav>
+    </header>
 
-            </form>
+    <main>
+      <section class="bio">
+        <div class="Biography">
+          <h2>
+            I am a software engineer learning in Alt School Africa with the id
+            of
+            <span>ALT/SOE/023/0395</span>.
+          </h2>
+          <p>
+            I have a passion for technology and love to learn new things. I
+            recently graduated from a prestigious university with a degree in
+            Computer Science.
+          </p>
+          <div class="hobbies">
+            <p>Here are some of my hobbies and interests:</p>
+            <ul>
+              <li>Coding</li>
+              <li>Reading</li>
+              <li>Cooking</li>
+              <li>Photography</li>
+            </ul>
+          </div>
+          <p>
+            I am always open to learning new skills and adapting to new
+            challenges.
+          </p>
+        </div>
+      </section>
 
-        </section>
-    </section>
-</body>
+      <section class="purpose" id="why">
+        <h2>Why i join altschool</h2>
+        <div class="container">
+          <div>
+            <h3>Mission-Driven:</h3>
+            <p>
+              AltSchool is on a mission to reinvent education by empowering
+              teachers, engaging students, and inspiring learning communities.
+              They strive to create innovative tools that support personalized
+              learning experiences. If you're passionate about education and
+              technology, this could be a perfect fit.
+            </p>
+          </div>
+
+          <div>
+            <h3>Technical Challenges:</h3>
+            <p>
+              As a backend developer at AltSchool, you'll face interesting
+              challenges such as:
+            </p>
+            <ul>
+              <li>
+                Scaling their platform to handle a large number of users and
+                interactions.
+              </li>
+              <li>
+                Building robust APIs for their web and mobile applications.
+              </li>
+              <li>
+                Ensuring data security and privacy, which is paramount in the
+                education sector.
+              </li>
+              <li>Integrating with various third-party services and APIs.</li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Modern Tech Stack:</h3>
+            <p>
+              AltSchool uses a modern tech stack including Node.js (Express),
+              React, PostgreSQL, AWS, and more. They also use tools like Docker,
+              Kubernetes, and CircleCI for containerization, orchestration, and
+              continuous integration/continuous deployment (CI/CD).
+            </p>
+          </div>
+
+          <div>
+            <h3>Collaborative Culture:</h3>
+            <p>
+              AltSchool values collaboration and continuous learning. You'll
+              work closely with their product, design, and other engineering
+              teams to build and improve their products. They also offer
+              opportunities for professional growth through mentorships,
+              workshops, and hackathons.
+            </p>
+          </div>
+
+          <div>
+            <h3>Impactful Work:</h3>
+            <p>
+              Your contributions will directly impact the education experience
+              of thousands of students and teachers across multiple schools.
+              Seeing your work make a real difference can be incredibly
+              rewarding.
+            </p>
+          </div>
+
+          <div>
+            <h3>Remote Work Options:</h3>
+            <p>
+              While they have offices in San Francisco and New York, AltSchool
+              also supports remote work, allowing for a better work-life
+              balance.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="skill" id="skill">
+        <h2>Skills</h2>
+
+        <div class="categoriescards container flex">
+          <div class="catecard">
+            <div class="cateimg">
+              <img src="asset/prg.jpeg" alt="Programming languages" />
+            </div>
+            <div class="catecardinfo flex">
+              <h3>Programming languages</h3>
+              <ul>
+                <li>Python</li>
+                <li>JavaScript</li>
+                <li>Java</li>
+                <li>C#</li>
+              </ul>
+            </div>
+          </div>
+          <div class="catecard">
+            <div class="cateimg">
+              <img src="./asset/web.jpeg" alt="Web development" />
+            </div>
+            <div class="catecardinfo flex">
+              <h3>Web development</h3>
+              <ul>
+                <li>HTML and CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node and Express</li>
+              </ul>
+            </div>
+          </div>
+          <div class="catecard">
+            <div class="cateimg">
+              <img src="./asset/database.jpeg" alt="Databases" />
+            </div>
+            <div class="catecardinfo flex">
+              <h3>Databases</h3>
+              <ul>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>PostgreSQL</li>
+              </ul>
+            </div>
+          </div>
+          <div class="catecard">
+            <div class="cateimg">
+              <img src="./asset/version.png" alt="Version control" />
+            </div>
+            <div class="catecardinfo flex">
+              <h3>Version control</h3>
+              <ul>
+                <li>Git</li>
+                <li>SVN</li>
+              </ul>
+            </div>
+          </div>
+          <div class="catecard">
+            <div class="cateimg">
+              <img src="./asset/operat.jpeg" alt="Operating System" />
+            </div>
+            <div class="catecardinfo flex">
+              <h3>Operating System</h3>
+              <ul>
+                <li>Windows</li>
+                <li>macOS</li>
+                <li>Linux</li>
+              </ul>
+            </div>
+          </div>
+          <div class="catecard">
+            <div class="cateimg">
+              <img src="./asset/tools.jpeg" alt="Tools" />
+            </div>
+            <div class="catecardinfo flex">
+              <h3>Tools</h3>
+              <ul>
+                <li>Visual Studio Code</li>
+                <li>visual studio</li>
+                <li>SQL Management Studio</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div>
+          <h2 id="goal">Goal</h2>
+          <p>
+            My ultimate professional goal is to become a skilled and accomplished
+            Backend Developer, specializing in designing, developing, and
+            maintaining scalable, secure, and efficient server-side applications.
+            I aim to contribute significantly to products that deliver seamless
+            user experiences by ensuring the reliability, performance, and
+            functionality of backend systems.
+          </p>
+        </div>
+               <h3>To achieve this goal, I plan to:</h3>
+        <div>
+          
+            <h3>Master Core Technologies:</h3>
+            <p>
+              Deepen my understanding and
+            proficiency in core backend technologies such as Node.js (Express),
+            Python (Django/Flask), Ruby on Rails, or Java (Spring Boot). I will
+            also focus on databases like PostgreSQL, MySQL, and MongoDB to ensure
+            data integrity and efficient querying.
+            </p>
+        </div>
+        <p>
+          <b>Learn Advanced Concepts:</b> Familiarize myself with advanced
+          topics in backend development such as microservices architecture,
+          containerization (Docker, Kubernetes), infrastructure as code
+          (Terraform, CloudFormation), and cloud platforms (AWS, Google Cloud,
+          Microsoft Azure).
+        </p>
+        <p>
+          <b>Develop Soft Skills:</b> Enhance my communication, collaboration,
+          and problem-solving skills to work effectively in teams and deliver
+          projects successfully. I will also improve my ability to understand
+          business requirements and provide technical solutions that align with
+          them.
+        </p>
+        <p>
+          <b>Gain Industry Experience:</b> Apply for entry-level or internship
+          positions at reputable tech companies to gain practical experience
+          working on real-world backend systems. I will actively participate in
+          coding challenges, hackathons, and personal projects to demonstrate my
+          skills and grow as a developer.
+        </p>
+        <p>
+          <b>Keep Learning and Staying Updated:</b> Continuously update my
+          knowledge by following industry trends, attending workshops, webinars,
+          and online courses. I will also engage with the developer community
+          through platforms like GitHub, Stack Overflow, and relevant forums to
+          learn from others' experiences.
+        </p>
+        <p>
+          <b>Become a Mentor:</b> Once I have gained sufficient experience and
+          expertise, I aim to share my knowledge by mentoring junior developers,
+          contributing to open-source projects, and creating helpful tutorials
+          or blog posts for the wider developer community.
+        </p>
+        <p>
+          By consistently working towards these objectives, I aspire to become a
+          valued backend developer who can drive innovation and deliver
+          high-quality products that make a positive impact on users' lives.
+        </p>
+        <br />
+      </section>
+    </main>
+
+    <footer>
+      <div class="copy">
+        <h2 id="contact">Contact Information</h2>
+        <ul>
+          <li>Email: ayodejiologun@gmail.com</li>
+          <li>Phone: +234 7085991805</li>
+          <li>Address: 1, aliyu atah house, ikoyi, lagos</li>
+        </ul>
+        <p>Follow me on social media:</p>
+        <ul>
+          <li><a href="https://www.facebook.com/example">Facebook</a></li>
+          <li><a href="https://www.twitter.com/example">Twitter</a></li>
+          <li><a href="https://www.instagram.com/example">Instagram</a></li>
+        </ul>
+        <a href="#">back to top</a>
+      </div>
+    </footer>
+  </body>
 </html>
